@@ -1,0 +1,624 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    height: 4rem;
+    width: 100%;
+    background-color: white;
+    color:black;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+   background-size: cover;
+box-sizing: border-box;
+align-items: center;
+position:relative ;
+cursor: pointer;
+}
+.navbar ul{
+    display:inline-block;
+}
+.navbar #nameid{
+    font-size: x-large;
+    padding-right: 20px;
+    color:orangered;
+    font-family: fantasy;
+}
+
+
+
+
+.navbar nav ul li h:hover{
+    color: red;
+}
+ .navbar nav ul li a{
+    color:black;
+    /* background-color: white; */
+    font-size: 1rem;
+}
+.navbar ul li{
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 15px;
+    padding: 1.5px;
+    width: max-content;
+    color: black;
+    font-weight: bold;
+    font-size:large;
+}
+.navbar ul li a:hover{
+    color: orangered;
+   
+}
+
+   
+ #one:hover{
+    color: orangered;
+ }
+ #two:hover{
+    color: orangered;
+ }
+ #three:hover{
+    color: orangered;
+ }
+ #four:hover{
+    color: orangered;
+ }
+
+ /* megamenu start */
+ .megamenu{
+    margin:2px;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top:70px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    transition:1s;
+    box-shadow: 2px 2px 2px 2px lightslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f3f3f3;
+
+}
+
+
+
+nav>ul>li:hover .megamenu{
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+    text-align: center;
+display: flex;
+}
+ .megamenuitems ul{
+    width: 550px;
+    height: 3rem;
+display: flex;
+align-items: center;
+ }
+
+
+
+.megamenuitems ul li{
+    list-style: none;
+    padding: 17px;
+   color: black;
+    
+
+}
+
+.megamenuitems ul #one{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.megamenuitems ul #three{
+    color:gray;
+}
+
+.megamenuitems ul li:hover{
+ color: orangered;
+}
+
+
+.megamenu2{
+
+    margin:2px;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top:70px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    transition:1s;
+    box-shadow: 2px 2px 2px 2px lightslategrey;
+    display:flex;
+   background-color:#f3f3f3;
+   
+  
+}
+nav>ul>li:hover .megamenu2{
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+   display:flex;
+  
+
+}
+
+
+.megamenuitems2 ul{
+    width: 550px;
+    height: 2rem;
+   
+}
+.megamenuitem21{
+    width: 550px;
+    height: 2rem;
+}
+.megamenuitems2 ul li{
+    list-style: none;
+    /* padding: 8px; */
+   color: black;
+   display: block;
+ font-size: medium;
+}
+
+.megamenuitems2 h{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.megamenuitem21 ul li{
+    display: block;
+    color: black;
+    
+}
+.megamenuitem21 h{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+.megamenuitem21 ul li{
+    list-style: none;
+   color: black;
+   display: block;
+ font-size: medium;
+} 
+
+.megamenu3{
+    margin:2px;
+    opacity: 0;
+    padding: 10px;
+    visibility: hidden;
+    position: absolute;
+    top:70px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    transition:1s;
+    box-shadow: 2px 2px 2px 2px #f3f3f3;
+    display:flex;
+   background-color:#f3f3f3;
+   
+  
+}
+nav>ul>li:hover .megamenu3{
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+   display:flex;
+  
+
+}
+.megamenuitems22 ul{
+    width: 550px;
+    height: 3rem;
+   
+
+
+}
+.megamenuitems22 ul li{
+    list-style: none;
+    padding: 8px;
+   color: black;
+   display: block;
+ font-size: small;
+}
+
+.megamenuitem22 h{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.megamenuitem22 ul li{
+    display: block;
+    color: black;
+    
+}
+
+.megamenu4{
+    margin:2px;
+   visibility: hidden;
+    position: absolute;
+    top:70px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    transition:1s;
+    box-shadow: 2px 2px 2px 2px lightslategrey;
+    display: flex;
+   background-color:#f3f3f3; 
+   
+   
+}
+nav>ul>li:hover .megamenu4{
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  
+}
+
+.megamenuitems22 ul{
+    width: 550px;
+    height: 3rem;
+   
+}
+/* box section */
+
+
+
+
+#btnoff{
+    border: 1px solid brown;
+background-color: white;
+color: #0f1111;
+}
+#buy{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+#I{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+
+}
+#II{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+
+}
+#III{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+}
+#IV{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+}
+#V{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+#VI{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+}
+#VII{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+}
+#VIII{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+
+
+.imgslide1{
+    width: 100%;
+    height: 400pc;
+    background-size:100% 100%;
+    animation:imgslide1 20s linear infinite ;
+}
+@keyframes carousel-inner{
+    0%{
+        background-image: url("storeimgslider1.webp");
+    }
+    25%{
+        background-image: url("storeimgslider2.webp");
+    }
+    50%{
+        background-image: url("storeimgslider3.webp");
+    }
+    75%{
+        background-image: url("storeimgslider4.webp");
+    }
+    100%{
+        background-image: url("storeimgslider5.webp");
+    }
+}
+
+.dealimg{
+    height: 200px;
+    width: 100%;
+    background-image: url("dealoftheday.webp");
+background-size: cover;
+}
+
+
+.Xiaomi-TV{
+    background-image: url("Xiaomi\ TV\ Stick.webp");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+padding-top: 15px;
+padding-left: 15px;
+}
+.Xiaomi-TV h4{
+    font-weight: lighter;
+}
+.Xiaomi-TV button{
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.Unlesh{
+    background-image: url('unleash.webp');
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+padding-top: 15px;
+padding-left: 15px;
+}
+
+.Unlesh-phone h4{
+    font-weight: lighter;
+}
+
+.Unlesh-phone button{
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+
+.battery{
+    background-image: url('batteryimg.webp');
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+padding-top: 15px;
+padding-left: 15px;
+}
+
+.battery-bank {
+    color: white;
+}
+.battery-bank h4{
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.battery-bank button{
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.newarrival{
+    height: 200px;
+    width: 100%;
+    background-image: url('NewArrival.webp');
+    background-size: cover;
+}
+
+
+.miimg{
+    background-image: url('miimg.webp');
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+padding-top: 15px;
+padding-left: 15px; 
+}
+.mi-img{
+  color: white;  
+}
+.mi-img h4{
+    font-weight: lighter;
+padding-top: 10px;
+}
+.mi-img button{
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    margin-top:15px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.foot-panel{
+    background-color:black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    
+}
+.foot-panel2{
+    background-color:black;
+    color: white;
+    height: 500px;
+    display: flex;
+justify-content: space-evenly;
+}
+
+.foot-panel2 ul a:hover{
+    text-decoration: underline;
+    
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.foot-panel3{
+    background-color:black;
+    color: white;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo{
+    background-image: url("amazonlogo1.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color: #0f1111;
+color: white;
+height: 80px;
+font-size: 0.7rem;
+text-align: center;
+/* display: flex;
+justify-content: center;
+align-items: center; */
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+  }
+  i{
+    margin-top: 10px;
+  }
+  p{
+    font-weight: bold;
+    margin-top: 10px;
+
+  }
+  #text{
+    margin-top: 20px;
+  }
+  input{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    margin-top: 25px;
+    text-align: center; 
+
+  }
+  #followmi{
+    justify-content: center;
+text-align: center; 
+
+}
+
+section{
+    background-color: black;
+    color: white;
+    text-align: left;
+    height: 100px;
+}
+#sitemap{
+padding: 30px;
+margin: 300px;
+
+}
+/* footer{
+    margin-top: 500px;
+} */
+.lastfootsection{
+    background-color: black; 
+}
